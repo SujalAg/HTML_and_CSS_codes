@@ -1,0 +1,37 @@
+<html>
+
+<body>
+    <h1> Date control</h1>
+    <form>
+
+        <label for="Birthday">Birthday:</label>
+        <input type="date" id="Birthday" name="Birthday"><br>
+        <input type="submit" value="Submit"><br>
+
+        <label for="Quantity">Quantity(between 1 and 5):</label>
+        <input type="number" id="Quantity" name="Quantity" min="1" max="5"><br>
+        <input type="submit" value="submit"><br>
+<label for="vol">Volume(between 0 to 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50"><br>
+        <input type="submit" value="Submit"><br>
+    </form>
+
+    <p><b>Note:</b> type="date" is not supported in Internet Explorer 11 or prior Safari 14.1.</p>
+    <form>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br>
+        <input type="submit">
+
+    </form>
+<form action="/action_page.php"> <!--gives the action to the next page-->
+
+        <label for="emails">Enter email addresses:</label>
+
+        <input type="email" id="emails" name="emails" multiple>
+
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
